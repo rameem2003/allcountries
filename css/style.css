@@ -97,4 +97,9 @@ body{
     #country_list .country .country_img img{
         height: 200px;
     }
+
+    .title{
+        font-size: 1rem;
+        width: 90%;
+    }
 }
