@@ -9,8 +9,27 @@
 }
 
 
-body{
-    background-color: rgb(25, 105, 226);
+.body_background{
+    background: linear-gradient(270deg, #3282eb, #000d57);
+    background-size: 500% 500%;
+    animation: background-animation;
+    animation-duration: 5s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes background-animation {
+    0%{
+        background-position: 0% 100%;
+    }
+
+    50%{
+        background-position: 100% 50%;
+    }
+
+    100%{
+        background-position: 0 100%;
+    }
 }
 
 
@@ -45,6 +64,7 @@ body{
     width: 48%;
     height: auto;
     margin: 10px;
+    box-shadow: 0px 0px 11px 5px rgba(0,0,0,0.72);
 }
 
 .country .country_img img{
