@@ -51,7 +51,7 @@ const allcountry = [
         languages : "English",
         religion : "Christian",
         independence : "",
-        leader: "Boris Johnson",
+        leader: "Rishi Sunak",
         antheme: "england.mp3",
     },
 
