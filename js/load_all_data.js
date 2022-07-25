@@ -123,7 +123,7 @@ const allcountry = [
         languages : "Sinhala and Tamil (main)",
         religion : "Buddhism",
         independence : "4 February 1948",
-        leader: "Gotabaya Rajapaksa",
+        leader: "Ranil Wickremesinghe",
         antheme: "srilanka.mp3",
     },
 
